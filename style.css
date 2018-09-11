@@ -1,0 +1,231 @@
+body {
+    color: white;
+}
+
+
+/* Main Container */
+
+.main-container {
+    width: 20rem;
+    top: 10px;
+    margin: 10px 2rem 10px;
+    text-align: center;
+    background: url("./assets/Pricing_BG_TopTriangle_Idle@2x.png") top center no-repeat;
+    background-size: 100%;
+    background-color: #E2e6f3;
+    color: #3651A3;
+}
+
+.main-container:hover {
+    background: url("./assets/Pricing_BG_TopTriangle_Hover.png") top center no-repeat;
+    background-size: 100%;
+    background-color: #2B4183;
+    color: white;
+}
+
+
+/* Header */
+
+.main-container .head-banner {
+    background: #C0C6D9;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 5px dashed white;
+    margin-bottom: 1em;
+    height: 7rem;
+}
+
+.main-container:hover .head-banner {
+    background: #3651A3;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 5px dashed white;
+    margin-bottom: 1em;
+}
+
+.main-container .third-container {
+    background: #C0C6D9;
+    justify-content: space-around;
+    margin: 0;
+    border-bottom: 5px dashed white;
+    margin-bottom: 1em;
+    height: 7rem;
+}
+
+.main-container:hover .third-container {
+    background: #3651A3;
+    justify-content: space-around;
+    margin: 0;
+    border-bottom: 5px dashed white;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+/* Body */
+
+.body-banner {
+    background-size: 100%;
+    background-position-y: 0%;
+}
+
+.container {
+    padding: 0 2em;
+}
+
+
+/* Font Details */
+
+.text-light {
+    margin: .03em;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    line-height: .875em;
+}
+
+.text-regular {
+    margin: .03em;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: .875em;
+}
+
+.text-medium {
+    margin: .03em;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    line-height: .875em;
+}
+
+.text-bold {
+    margin: .03em;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    color: #3651A3;
+}
+
+.main-container:hover .text-bold {
+    color: white;
+}
+
+
+/* strike through */
+
+.regular {
+    text-decoration: line-through;
+}
+
+.btn {
+    margin: 1em;
+    padding: 1rem;
+    background-color: #FF5844;
+}
+
+.btn:hover {
+    background-color: #e9967a;
+}
+
+.supply {
+    font-size: 22px;
+    letter-spacing: 0.08rem;
+}
+
+
+/* Blue Line */
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid rgba(0, 0, 0, .1);
+}
+
+.each-item {
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+
+/* Fraction Styled Font*/
+
+.discount {
+    display: inline-block;
+    position: relative;
+    font-size: 4em;
+}
+
+.best-seller {
+    display: inline-block;
+    position: relative;
+    font-size: 2em;
+    line-height: 3rem;
+}
+
+.discount::after {
+    content: "% off";
+    display: block;
+    left: 100%;
+    font-size: 30px;
+    line-height: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+
+/* Image */
+
+img {
+    align-content: center;
+    width: 9rem;
+    height: 9rem;
+}
+
+
+/* Button */
+
+button {
+    text-align: center;
+    width: 87%;
+    padding: 10px;
+}
+
+
+/* hackyness */
+
+.hide {
+    visibility: hidden;
+}
+
+#header3 {
+    padding: 0.6em;
+    font-size: 30px;
+}
+
+@media only screen and ( max-width: 720px) {
+    .main.container {
+        width: 100%;
+    }
+    .main-container .third-container {
+        background: #C0C6D9;
+        justify-content: space-around;
+        margin: 0;
+        border-bottom: 5px dashed white;
+        margin-bottom: 1em;
+        height: 7rem;
+    }
+    .main-container:hover .third-container {
+        background: #3651A3;
+        justify-content: space-around;
+        margin: 0;
+        border-bottom: 5px dashed white;
+        margin-bottom: 1em;
+    }
+    #header3 {
+        padding: 0.6em;
+        font-size: 1.9rem;
+    }
+}
