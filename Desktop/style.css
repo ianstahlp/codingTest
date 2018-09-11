@@ -10,14 +10,14 @@ body {
     top: 10px;
     margin: 10px 2rem 10px;
     text-align: center;
-    background: url("./assets/Pricing_BG_TopTriangle_Idle@2x.png") top center no-repeat;
+    background: url("../assets/Pricing_BG_TopTriangle_Idle@2x.png") top center no-repeat;
     background-size: 100%;
     background-color: #E2e6f3;
     color: #3651A3;
 }
 
 .main-container:hover {
-    background: url("./assets/Pricing_BG_TopTriangle_Hover.png") top center no-repeat;
+    background: url("../assets/Pricing_BG_TopTriangle_Hover.png") top center no-repeat;
     background-size: 100%;
     background-color: #2B4183;
     color: white;
@@ -181,7 +181,7 @@ hr {
 img {
     align-content: center;
     width: 9rem;
-    height: 9rem;
+    height: 10rem;
 }
 
 
