@@ -20,27 +20,21 @@ jQuery handles only a small portion of the Mobile view to toggle classes. of eac
 This was the first test I tackled. 
 Create 3 banners, side by side, with functionality wherein you hover over each box and it changes the entirety of the CSS involved. You could say it inverts the color scheme when in hover mode from when it sits idle.
 
-I was tasked to implement this design: 
-
-![desktop-previeew](./assets/ab-testing-final-product-selectors---ab-testing---darker.png)
-
-This is my attempt: 
-
-![my-desktop](thisisathing.png)
-
 ## Mobile
 
 This was the second one. This one took more time, which shocked me, but here we are. This required me to essentially create an "accordion" of options for the product banners. Stacked on top of one another, when you click on an option, the product details opens from the bottom of the button, changing the styling of said button to match that of the product details. 
 
 I did a hacky method of achieving this goal. I have a main container that encapsulates the button and the product details. When the button is clicked, it deletes the button class of "inactive". It works. Future iterations will be much better thought out. I will go into detail what can be changed at the end of this README.md.
 
-This was what I needed to re-create:
+###Slight Instruction for Mobile
 
-![mobile-view](mobileview.png)
+To view mobile correctly:
 
-This was my attempt: 
+1. Ctrl + Alt + I ( Windows ) 
+2. Switch to Mobile View on the right of the Developer Tools Menu
 
-![my-mobile-view](mymobileview.png)
+
+
 
 ##Things that can be changed
 
