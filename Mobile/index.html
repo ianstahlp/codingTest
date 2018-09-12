@@ -20,8 +20,8 @@
 
 <body>
     <!-- Closed Example -->
-    <div class="jumbotron jumbotron-fluid main-container inactive">
-        <div class="row container container-fluid head-banner inactive justify-content-between">
+    <div class="jumbotron jumbotron-fluid main-container" id="toggle1" data-toggle="collapse" data-target="#body1" aria-expanded="false" aria-controls="body1">
+        <a class="row  container-fluid head-banner justify-content-between inactive">
             <img src="../assets/vitamins.png" />
             <p><span class="text-bold discount">1</span></p>
             <div style="visibility: hidden">
@@ -32,26 +32,56 @@
                 </p>
             </div>
 
-            <i class="fas fa-angle-up"></i>
+            <i class="fas fa-angle-right"></i>
+        </a>
+
+
+        <div class="container-fluid  body-banner collapse" id="body1">
+            <div class="wrapper">
+                <br>
+                <div style="visibility: hidden">
+                    <div class="supply">
+                        <span class="text-medium">Regular Supply</span>
+                    </div>
+                    <span class="headers-medium text-medium regular" style="font-size: 2rem;">$45.00</span>
+
+                </div>
+
+                <p class="sale-price text-bold">$38.33</p>
+                <div class="each-item row">
+                    <p style="visibility: hidden">$45.00</p>
+                    <p class="savings">each</p>
+                </div>
+                <h4 class="text-bold" style="visibility:hidden; color:#71B621; font-size: 1.4rem">YOU SAVE $20</h4>
+                <span class="text-medium" style="letter-spacing: 0.08rem;"><i class="fas fa-truck"></i>
+    
+                         Free Shipping!</span>
+                <br>
+                <button type="button" class="btn">
+                                    <span class='headers' style="color: white"><strong>ADD TO CART</strong></span>
+                                    </button>
+            </div>
+
         </div>
+
 
     </div>
 
 
     <!-- Open Example -->
-    <div class="jumbotron jumbotron-fluid main-container">
-        <div class="row container-fluid head-banner justify-content-between active">
+    <div class="jumbotron jumbotron-fluid main-container" id="toggle2" data-toggle="collapse" data-target="#body2" aria-expanded="true" aria-controls="body2">
+        <a class="row container-fluid head-banner justify-content-between inactive">
 
             <img src="../assets/vitamins.png" />
             <p><span class="text-bold discount">3</span></p>
             <p><span class="text-bold best-seller">15%OFF
                 <br>
-                <span class="below"><span>BEST</span> SELLER</span>
+                <span class="below"><span>BEST SELLER</span></span>
                 </span>
             </p>
-            <i class="fas fa-angle-up"></i>
-        </div>
-        <div class="container-fluid body-banner">
+            <i class="fas fa-angle-right"></i>
+        </a>
+        <div class="container-fluid body-banner collapse" id="body2">
             <div class="wrapper">
                 <br>
                 <div class="supply">
@@ -82,17 +112,43 @@
 
     <!-- Closed Example 2 -->
 
-    <div class="jumbotron jumbotron-fluid main-container inactive">
-        <div class="row container container-fluid head-banner inactive justify-content-between">
+    <div class="jumbotron jumbotron-fluid main-container" id="toggle3" data-toggle="collapse" data-target="#body3" aria-expanded="false" aria-controls="body3">
+        <a class="row  container-fluid head-banner inactive justify-content-between">
             <img src="../assets/vitamins.png" />
             <p><span class="text-bold discount">6</span></p>
             <p><span class="text-bold best-seller">26%OFF
                         <br>
-                        <span class="below"><span>BEST</span> VALUE</span>
+                        <span class="below"><span>BEST VALUE</span></span>
                 </span>
             </p>
-            <i class="fas fa-angle-up"></i>
+            <i class="fas fa-angle-right"></i>
+        </a>
+
+        <div class="container-fluid  body-banner collapse" id="body3">
+            <div class="wrapper">
+                <br>
+                <div class="supply">
+                    <span class="text-medium">Regular Supply</span>
+                </div>
+                <span class="headers-medium text-medium regular" style="font-size: 2rem;">$45.00</span>
+
+                <p class="sale-price text-bold">$33.17</p>
+                <div class="each-item row">
+                    <p style="visibility: hidden">$45.00</p>
+                    <p class="savings">each</p>
+                </div>
+                <h4 class="text-bold" style="color:#71B621; font-size: 1.4rem">YOU SAVE $71</h4>
+                <span class="text-medium" style="letter-spacing: 0.08rem;"><i class="fas fa-truck"></i>
+        
+                             Free Shipping!</span>
+                <br>
+                <button type="button" class="btn">
+                                        <span class='headers' style="color: white"><strong>ADD TO CART</strong></span>
+                                        </button>
+            </div>
+
         </div>
+
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
