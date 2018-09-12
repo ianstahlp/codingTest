@@ -26,7 +26,7 @@ This was the second one. This one took more time, which shocked me, but here we 
 
 I did a hacky method of achieving this goal. I have a main container that encapsulates the button and the product details. When the button is clicked, it deletes the button class of "inactive". It works. Future iterations will be much better thought out. I will go into detail what can be changed at the end of this README.md.
 
-###Slight Instruction for Mobile
+### Slight Instruction for Mobile
 
 To view mobile correctly:
 
@@ -36,7 +36,7 @@ To view mobile correctly:
 
 
 
-##Things that can be changed
+## Things that can be changed
 
 I brute forced my way to creating these designs, however I'm very much aware of the flaws of the code. It can be imiproved upon. Here's how: 
 
@@ -49,7 +49,7 @@ I brute forced my way to creating these designs, however I'm very much aware of 
 3. For loops are the future
     * That small itty bitty amount of javascript that I have can be further optimized by making a for loop rather than create a new method for each id to each element it handles.
 
-4. 
+
 
 
 
