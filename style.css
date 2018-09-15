@@ -208,10 +208,10 @@ img {
     }
     .main-container:nth-child(odd) .head-banner {
         top: 10px;
-        background: url(../assets/Mobile_Triangle_Closed@2x.png) no-repeat -30%, linear-gradient(0deg, #F0F2F9 4%, #FFF 100%);
+        background: url("./assets/Mobile_Triangle_Closed.png") no-repeat 0, linear-gradient(0deg, #F0F2F9 4%, #FFF 100%);
         border-bottom: none;
         color: #3651a3;
-        padding: 1rem;
+        padding: .8rem;
         box-shadow: 0 2px 4px 0 rgba(113, 126, 165, 0.55);
     }
     .main-container:nth-child(odd) .body-banner {
